@@ -1,0 +1,16 @@
+features:
+# User profile feature
+user_profile:
+enabled: true
+rollout_percentage: 100
+  # Advanced dashboard (incomplete)
+advanced_dashboard:
+enabled: true
+rollout_percentage: 0 # Disabled for now
+  # New analytics (testing)
+new_analytics:enabled: true
+rollout_percentage: 25 # Only 25% of users
+  # Experimental feature
+experimental_ai:
+enabled: false
+rollout_percentage: 0
